@@ -1,4 +1,17 @@
-import { Sun, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Sun, Facebook, Instagram } from "lucide-react";
+
+const socialLinks = [
+  {
+    icon: Facebook,
+    href: "https://facebook.com/share/1AheXPMJgK/",
+    label: "Facebook",
+  },
+  {
+    icon: Instagram,
+    href: "https://instagram.com/sangamsolar2030/",
+    label: "Instagram",
+  },
+];
 
 const Footer = () => {
   return (
@@ -10,14 +23,16 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-5">
-          {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
+          {socialLinks.map((social, i) => (
             <a
               key={i}
-              href="#"
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="Social media"
+              aria-label={social.label}
             >
-              <Icon className="h-5 w-5" />
+              <social.icon className="h-5 w-5" />
             </a>
           ))}
         </div>
