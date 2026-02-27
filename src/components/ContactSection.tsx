@@ -23,8 +23,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-foreground text-lg mb-1">Email</p>
-                <a href="mailto:contact@sangamsolar.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  contact@sangamsolar.com
+                <a href="mailto:salesangamsolar2.0@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  salesangamsolar2.0@gmail.com
                 </a>
               </div>
             </div>
@@ -36,8 +36,11 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-foreground text-lg mb-1">Phone</p>
-                <a href="tel:+910000000000" className="text-muted-foreground hover:text-primary transition-colors">
-                  +91 00000 00000
+                <a href="tel:+919415712128" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 94157 12128
+                </a>
+                 <a href="tel:+918601986415" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 86019 86415
                 </a>
               </div>
             </div>
@@ -50,7 +53,7 @@ const ContactSection = () => {
               <div>
                 <p className="font-semibold text-foreground text-lg mb-1">Address</p>
                 <p className="text-muted-foreground">
-                  Varanasi, Uttar Pradesh<br />India
+                  Opposite Bikaner, Sec A, Shantipuram Phaphamau Prayagraj, Uttar Pradesh <br />India
                 </p>
               </div>
             </div>
