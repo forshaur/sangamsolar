@@ -4,19 +4,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const projects = [
   {
     id: 1,
-    image: "/placeholder.svg", // Replace with actual image paths (e.g., /images/project1.jpg)
+    image: "/images/roopapur.png", 
     title: "Residential Setup in Varanasi",
     description: "A 5kW system helping a family achieve energy independence.",
   },
   {
     id: 2,
-    image: "/placeholder.svg",
+    image: "/images/prayagraj.jpeg",
     title: "Commercial Installation",
     description: "Reducing operational costs for local businesses.",
   },
   {
     id: 3,
-    image: "/placeholder.svg",
+    image: "/images/phapha.jpg",
     title: "Rural Electrification",
     description: "Bringing consistent power to remote areas.",
   },
